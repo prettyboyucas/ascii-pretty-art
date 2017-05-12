@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle ascii-pretty-art'
+      'command': 'ascii-pretty-art:convert'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ascii-pretty-art'
+      'submenu': [
+        {
+          'label': 'convert'
+          'command': 'ascii-pretty-art:convert'
+        }
+      ]
+    ]
+  }
+]

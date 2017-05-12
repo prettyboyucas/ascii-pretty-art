@@ -1,0 +1,19 @@
+{
+  "name": "ascii-pretty-art",
+  "main": "./lib/ascii-pretty-art",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ascii-pretty-art:convert"
+  },
+  "repository": "https://github.com/zuisixian/ascii-pretty-art",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+      "figlet":"1.0.8"
+  }
+}
