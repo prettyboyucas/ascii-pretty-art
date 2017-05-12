@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "ascii-pretty-art:convert"
   },
-  "repository": "https://github.com/zuisixian/ascii-pretty-art",
+  "repository": "https://github.com/prettyboyucas/ascii-pretty-art",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -17,3 +17,4 @@
       "figlet":"1.0.8"
   }
 }
+hello
